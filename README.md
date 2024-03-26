@@ -5,10 +5,10 @@
 * At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 ## Author's Details
-Name:   *Firaol Mk*
+Name:   *Firaol Mk*, 
 	*Kidus Asebe*
 
-Email:  *firaolmekbib511@gmail.com*
+Email:  *firaolmekbib511@gmail.com*, 
 	*kidusasebe1919@gmail.com*
 
 ### General
