@@ -21,7 +21,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	height = binary_tree_height(tree);
 	nodes = binary_tree_size(tree);
 
-	power = (size_t)pow(2, height + 1);
+	power = (size_t)_powr(2, height + 1);
 	return (power - 1 == nodes);
 }
 
@@ -81,4 +81,22 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (max(l, r) + 1);
 	}
 	return (0);
+}
+
+/**
+ *_powr - returns the value of x raised to the power of y
+ *@x: the value to exponentiate
+ *@y: the power to raise x to
+ *Return: x to the power of y, or -1 if y is negative
+ */
+
+int _powr(int x, int y)
+{
+	if (y < 0)
+		return (-1);
+	if (y == 0)
+		return (1);
+	else
+		return (x * _powr(x, y - 1));
+
 }
