@@ -3,6 +3,7 @@
 
 #include <stddef.h>
 #include <stdlib.h>
+#include <limits.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -49,6 +50,11 @@ binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 int _powr(int x, int y);
 void traverse(const binary_tree_t *tree, void (*func)(int), size_t level);
 int binary_tree_is_complete(const binary_tree_t *tree);
+<<<<<<< HEAD
 int _checker(const binary_tree_t *tree, size_t index, size_t size);
+=======
+int binary_tree_is_bst(const binary_tree_t *tree);
+int _is_bst(const binary_tree_t *tree, int min, int max);
+>>>>>>> afd878031e9918650182abcc8196ba515630a7df
 
 #endif /* _BINARY_TREES_H_ */
