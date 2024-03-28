@@ -8,7 +8,7 @@
  */
 bst_t *bst_remove(bst_t *root, int value)
 {
-	bst_t *temp = NULL, *min;
+	bst_t *temp = NULL, *min = NULL;
 
 	if (!root)
 		return (NULL);
